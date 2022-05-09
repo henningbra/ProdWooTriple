@@ -1,0 +1,13 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Woocommerce
+WOOCOMMERCE_URL=os.getenv(key='WOOCOMMERCE_URL')
+WOOCOMMERCE_CONSUMER_KEY=os.getenv(key='WOOCOMMERCE_CONSUMER_KEY')
+WOOCOMMERCE_CONSUMER_SECRET=os.getenv(key='WOOCOMMERCE_CONSUMER_SECRET')
+
+# Tripletex
+TRIPLETEX_CONSUMER_TOKEN=os.getenv(key='TRIPLETEX_CONSUMER_TOKEN')
+TRIPLETEX_EMPLOYEE_TOKEN=os.getenv(key='TRIPLETEX_EMPLOYEE_TOKEN')
